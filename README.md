@@ -1,7 +1,8 @@
 # QUT Technical Test
 
-This solution uses JRS-303 for bean validation and also authenticates the user
-through the http header "Authorization" using "Basic" realm, it is a simple authorization
+This solution uses JRS-303 for bean validation, H2 as in-memory database,
+and also authenticates the user through the http header "Authorization"
+using "Basic" realm, it is a simple authorization
 case as it only authenticates one user/password.
 
 To specify user/password, the application must be run with the following system properties:
