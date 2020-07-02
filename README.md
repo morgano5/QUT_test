@@ -21,4 +21,4 @@ appear in the regular code, they do in the generated code.
 
 In the requirements it was not clear that the Object __MockMvc__ should be explicitly
 used in the unit tests, I've added an extra test class to test using this object; so
-that we have to test classes: one using __RestTemplate__ and the other using __MockMvc__
+that we have two test classes: one using __RestTemplate__ and the other using __MockMvc__
